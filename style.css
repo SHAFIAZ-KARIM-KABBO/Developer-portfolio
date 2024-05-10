@@ -1,15 +1,4 @@
-/*
-echo "# Developer-portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SHAFIAZ-KARIM-KABBO/Developer-portfolio.git
-git push -u origin main
-
-git remote add origin https://github.com/SHAFIAZ-KARIM-KABBO/Developer-portfolio.git
-git branch -M main
-git push -u origin main */
+/*Body realeted style hear*/
 
 *{
     margin: 0;
@@ -17,3 +6,4 @@ git push -u origin main */
     font-family: roboto ;
 }
 
+/*Common style hear*/
