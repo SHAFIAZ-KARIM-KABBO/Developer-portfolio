@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Open Sans;
+    /* font-size: 18px; */
 }
 
 /*Common style hear*/
@@ -12,13 +13,25 @@
 }
 
 .btn-primary {
+    border: 0;
+    color: #fff;
     border-radius: 5px;
     background: #FD6E0A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+
 }
 
 /*Nav releated style hear*/
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin: 0px  200px;
+    padding-top: 50px;
 
 }
 
@@ -30,6 +43,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -40,4 +54,25 @@ nav li {
 nav a {
     color: #181818;
     text-decoration: none;
+}
+
+/*Header releated style hear*/
+
+.header {
+    background-color: #FFF8F3;
+    ;
+
+}
+
+.banner {
+    /* margin-top: 50px; */
+    padding: 00px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 480px;
+    height: 500px;
+    flex-shrink: 0;
 }
